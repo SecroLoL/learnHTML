@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        em {
+            color: red;
+            font-style: normal;
+        }
+    </style>
+ 
+</head>
+<body>
+    
+    <!-- Table starts here-->
+    <table>
+        <!--The head is the top of the table-->
+        <thead>
+            <!--Caption gives the table a title-->
+            <caption><h2>List of Numbers</h2></caption>
+            <!--tr is table-row, we use this to define the top rows-->
+            <tr>
+                <th>num1</th> <!-- Table Header -->
+                <th>num2</th>
+                <th>num3</th>
+            </tr>
+        </thead>
+
+        <!-- Body of the table is the contents (data) -->
+        <tbody>
+            <tr>
+                <!--colspan can be set to make an entry take up more than one column-->
+                <td colspan="2">one</td> <!-- This is a column-->
+                <td>two</td>
+                <td>three</td>
+                <td>three and a half</td>  <!--Tables don't have to align, this just gets pushed off the side.-->
+            </tr>
+            <tr>  <!-- New Row -->
+                <td>four</td> <!-- This is a column-->
+                <td>five</td>
+                <td>six</td>
+            </tr>
+        </tbody>
+    </table>
+ 
+</body>
+</html>
